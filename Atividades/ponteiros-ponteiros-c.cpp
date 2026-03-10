@@ -66,7 +66,6 @@ void ponteiroInfinito () {
               printf("\n");
 }
 int main () {
-    
     ponteiroInfinito();
 
     system("pause");
