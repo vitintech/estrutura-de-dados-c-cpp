@@ -49,15 +49,6 @@ Dentro delas, você encontrará:
 
 ---
 
-## 🚀 Diferenciais
-
-- Código escrito com foco didático
-- Evolução gradual dos projetos
-- Revisão de implementações após novos aprendizados
-- Integração entre conteúdo acadêmico e estudo independente
-
----
-
 ## 📈 Em constante evolução
 
 Este repositório está em **atualização contínua**, acompanhando minha evolução na disciplina e estudos externos.
