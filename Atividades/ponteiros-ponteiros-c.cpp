@@ -19,49 +19,51 @@ void ponteiroInfinito () {
     int *i;
     int **ii;
 
-        p = nome;
-          pp = &p;
-            printf("Variavel nome: %s\n", nome);
-            printf("Usando ponteiro: %s\n", p);
-            printf("Usando ponteiro de ponteiro: %s", *pp);
-            printf("\n\n");
+      p = nome;
+      pp = &p;
+        printf("Variavel nome: %s\n", nome);
+        printf("Usando ponteiro: %s\n", p);
+        printf("Usando ponteiro de ponteiro: %s", *pp);
+          
+        printf("\n\n");
         
-            // Usamos p = nome + 1 para exibir o segundo elemento de nome
-              printf("2. caractere usando pp com []: %c", (*pp)[1]);
-              printf("\n");
-
-            // usamos aritmerica de ponteiros para exibir apenas o terceiro elemento
-              printf("3. caractere usando aritmerica de pp: %c\n", *(*pp + 2));
+        // Usamos p = nome + 1 para exibir o segundo elemento de nome
+        printf("2. caractere usando pp com []: %c", (*pp)[1]);
+        
+        printf("\n");
+        
+        // usamos aritmerica de ponteiros para exibir apenas o terceiro elemento
+        printf("3. caractere usando aritmerica de pp: %c\n", *(*pp + 2));
         
         i = &idade;
-          ii = &i;
-            printf("Variavel idade: %d\n", idade);
-            printf("Usando ponteiro: %d\n", *i);
-            printf("Usando ponteiro de ponteiro: %d", **ii);
+        ii = &i;
+          printf("Variavel idade: %d\n", idade);
+          printf("Usando ponteiro: %d\n", *i);
+          printf("Usando ponteiro de ponteiro: %d", **ii);
 
-          printf("\n\n");
+        printf("\n\n");
 
-            printf("End. de nome: %p\n", &nome);
-            printf("End. ponteiro de nome: %p\n", &p);
-            printf("End. de ponteiro de ponteiro de nome: %p", &pp);
+        printf("End. de nome: %p\n", &nome);
+        printf("End. ponteiro de nome: %p\n", &p);
+        printf("End. de ponteiro de ponteiro de nome: %p", &pp);
 
-          printf("\n\n");
+        printf("\n\n");
 
-            printf("End. de idade: %p\n", &idade);
-            printf("End. de ponteiro de idade: %p\n", &i);
-            printf("End. de ponteiro de ponteiro de idade: %p", &ii);
+        printf("End. de idade: %p\n", &idade);
+        printf("End. de ponteiro de idade: %p\n", &i);
+        printf("End. de ponteiro de ponteiro de idade: %p", &ii);
 
-          printf("\n\n");
+        printf("\n\n");
 
-            printf("End. ponteiro aponta nome: %p\n", &*p);
-            printf("End. ponteiro de ponteiro aponta nome: %p", &*pp);
-
-          printf("\n");
+      printf("End. ponteiro aponta nome: %p\n", &*p);
+    printf("End. ponteiro de ponteiro aponta nome: %p", &*pp);
+        
+  printf("\n");
 }
 
 int main () {
     ponteiroInfinito();
 
     system("pause");
-    return 0;
+  return 0;
 }
