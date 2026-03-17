@@ -1,6 +1,6 @@
 # 📚 Estrutura de Dados em C/C++
 
-Este repositório documenta meu processo de aprendizado em **Estrutura de Dados utilizando C e C++**, desenvolvido a partir da disciplina da faculdade e complementado com estudos e cursos por fora.
+Este repositório documenta meu processo de aprendizado em **Estrutura de Dados utilizando C e C++**, desenvolvido a partir da disciplina da faculdade e complementado com estudos.
 
 O foco não é apenas resolver exercícios, mas **entender, implementar, documentar e evoluir** cada estrutura e algoritmo.
 
